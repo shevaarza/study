@@ -13,7 +13,7 @@ public class punyaG {
             jumlahPelanggan[i] = sc.nextInt();
         }
 
-        System.out.println();
+        int[][] jumlahItem = new
         sc.close();
     }
 
