@@ -1,19 +1,23 @@
 import java.util.Scanner;
+import java.util.Arrays;
+
 
 public class punyaG {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
 
-        int[] jumlahPelanggan = new int[5];
-        System.out.println("Masukkan jumlah pelanggan untuk 5 cabang:");
-        
-        for (int i = 0; i < jumlahPelanggan.length; i++) {
-            System.out.print("Cabang " + (i + 1) + ": ");
-            jumlahPelanggan[i] = sc.nextInt();
+        System.out.print("Masukkan jumlah cabang: ");
+        int jumlahCabang = sc.nextInt();
+
+        int[] pelangganCabang = new int[jumlahCabang];
+
+        for (int i = 0; i < jumlahCabang; i++) {
+         // input jumlah pelanggan cabang i
         }
 
-        int[][] jumlahItem = new
+        
+        
         sc.close();
     }
 
